@@ -35,7 +35,7 @@ public class StocksDAOImpl implements StocksDAO {
 	/**
 	 * findAll method provides all a List of All Stocks
 	 * 
-	 * @see invest.stocks.dao.StocksDAO#findAll()
+	 * @see com.invest.stocks.dao.StocksDAO#findAll()
 	 */
 	@Override
 	public List<Stocks> findAll() throws DatabaseException {
@@ -79,7 +79,7 @@ public class StocksDAOImpl implements StocksDAO {
 	 * 
 	 * @return Stocks
 	 * 
-	 * @see invest.stocks.dao.StocksDAO#findByPK(int)
+	 * @see com.invest.stocks.dao.StocksDAO#findByPK(int)
 	 */
 	@Override
 	public Stocks findByPK(final int stockId) throws DatabaseException {
@@ -165,7 +165,7 @@ public class StocksDAOImpl implements StocksDAO {
 	/**
 	 * insert method enables insertion of stocks into the stocks database
 	 * 
-	 * @see invest.stocks.dao.StocksDAO#insert(invest.stocks.dao.Stocks)
+	 * @see com.invest.stocks.dao.StocksDAO#insert(com.invest.stocks.dao.Stocks)
 	 */
 	@Override
 	public void insert(final Stocks stocks) throws DatabaseException {
@@ -201,7 +201,7 @@ public class StocksDAOImpl implements StocksDAO {
 	/**
 	 * update method enables update of Stocks table based on stockId
 	 * 
-	 * @see invest.stocks.dao.StocksDAO#update(invest.stocks.dao.Stocks)
+	 * @see com.invest.stocks.dao.StocksDAO#update(com.invest.stocks.dao.Stocks)
 	 */
 	@Override
 	public void update(final Stocks stocks) throws DatabaseException {
@@ -237,7 +237,7 @@ public class StocksDAOImpl implements StocksDAO {
 	/**
 	 * delete method enables deletion of stocks based on stockId
 	 * 
-	 * @see invest.stocks.dao.StocksDAO#delete(invest.stocks.dao.Stocks)
+	 * @see com.invest.stocks.dao.StocksDAO#delete(com.invest.stocks.dao.Stocks)
 	 */
 	@Override
 	public void delete(final Stocks stocks) throws DatabaseException {

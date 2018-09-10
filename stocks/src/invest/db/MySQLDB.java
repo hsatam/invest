@@ -39,11 +39,11 @@ public class MySQLDB implements Database {
 	/**
 	 * getDBConnection method used to get MySQLSB Connection Object
 	 * @return Connection
-	 * @see invest.db.Database#getDBConnection()
+	 * @see com.invest.db.Database#getDBConnection()
 	 */
 	public final Connection getDBConnection() throws SQLException {
  
-		dataSource.setUrl("jdbc:mysql://localhost:3306/invest?useSSL=false");
+		dataSource.setUrl("jdbc:mysql://localhost:3306/com.invest?useSSL=false");
 		dataSource.setUser("root");
 		dataSource.setPassword("P@ssword");
 

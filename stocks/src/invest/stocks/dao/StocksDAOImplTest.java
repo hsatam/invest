@@ -51,7 +51,7 @@ public class StocksDAOImplTest {
 	}
 
 	/**
-	 * Test method for {@link invest.stocks.dao.StocksDAOImpl#StocksDAOImpl()}.
+	 * Test method for {@link com.invest.stocks.dao.StocksDAOImpl#StocksDAOImpl()}.
 	 */
 	@Test
 	public void testStocksDAOImpl() {
@@ -60,7 +60,7 @@ public class StocksDAOImplTest {
 	}
 
 	/**
-	 * Test method for {@link invest.stocks.dao.StocksDAOImpl#findAll()}.
+	 * Test method for {@link com.invest.stocks.dao.StocksDAOImpl#findAll()}.
 	 */
 	@Test
 	public void testFindAll() {
@@ -81,7 +81,7 @@ public class StocksDAOImplTest {
 	}
 
 	/**
-	 * Test method for {@link invest.stocks.dao.StocksDAOImpl#findByPK(int)}.
+	 * Test method for {@link com.invest.stocks.dao.StocksDAOImpl#findByPK(int)}.
 	 */
 	@Test
 	public void testFindByPK() {
@@ -99,7 +99,7 @@ public class StocksDAOImplTest {
 	}
 
 	/**
-	 * Test method for {@link invest.stocks.dao.StocksDAOImpl#findbystockname(java.lang.String)}.
+	 * Test method for {@link com.invest.stocks.dao.StocksDAOImpl#findbystockname(java.lang.String)}.
 	 */
 	@Test
 	public void testFindbystockname() {
@@ -115,7 +115,7 @@ public class StocksDAOImplTest {
 	}
 
 	/**
-	 * Test method for {@link invest.stocks.dao.StocksDAOImpl#insert(invest.stocks.dao.Stocks)}.
+	 * Test method for {@link com.invest.stocks.dao.StocksDAOImpl#insert(com.invest.stocks.dao.Stocks)}.
 	 */
 	@Test
 	public void testInsert() {
@@ -130,7 +130,7 @@ public class StocksDAOImplTest {
 	}
 
 	/**
-	 * Test method for {@link invest.stocks.dao.StocksDAOImpl#update(invest.stocks.dao.Stocks)}.
+	 * Test method for {@link com.invest.stocks.dao.StocksDAOImpl#update(com.invest.stocks.dao.Stocks)}.
 	 */
 	@Test
 	public void testUpdate() {
@@ -146,7 +146,7 @@ public class StocksDAOImplTest {
 	}
 
 	/**
-	 * Test method for {@link invest.stocks.dao.StocksDAOImpl#delete(invest.stocks.dao.Stocks)}.
+	 * Test method for {@link com.invest.stocks.dao.StocksDAOImpl#delete(com.invest.stocks.dao.Stocks)}.
 	 */
 	@Test
 	public void testDelete() {

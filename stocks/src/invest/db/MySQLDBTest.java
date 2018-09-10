@@ -13,7 +13,7 @@ import org.junit.Test;
 public class MySQLDBTest { // NOPMD by hemantsatam on 9/9/18 6:17 PM
 
 	/**
-	 * Test method for {@link invest.db.MySQLDB#getDBConnection()}.
+	 * Test method for {@link com.invest.db.MySQLDB#getDBConnection()}.
 	 */
 	@Test
 	public void testGetDBConnection() throws Exception {
